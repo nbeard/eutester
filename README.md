@@ -36,6 +36,16 @@ Installation on a fresh, (minimal install) Lab system
     yum install python-devel
     yum install python-setuptools
     easy_install eutester
+    easy_install ipython
+
+ipthon utility to expedite scripting
+
+    ipython
+    from eucaops import Eucaop
+    tester = Eucaops(credpath=".euca/")
+    tester.<tab>
+    %logstart  (exit or <ctrl>d)
+
 
 
 Main Classes
