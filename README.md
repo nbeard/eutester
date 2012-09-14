@@ -30,7 +30,7 @@ For development purposes you can then clone the code from github and then reinst
 
 
 Installation on a fresh, (minimal install) Lab system
-
+------
     yum install gcc
     yum install python
     yum install python-devel
