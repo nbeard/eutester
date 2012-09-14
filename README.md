@@ -28,6 +28,16 @@ For development purposes you can then clone the code from github and then reinst
     [CHANGE CODE]
     python setup.py install
 
+
+Installation on a fresh, (minimal install) Lab system
+
+    yum install gcc
+    yum install python
+    yum install python-devel
+    yum install python-setuptools
+    easy_install eutester
+
+
 Main Classes
 ------
 eutester contains the framework pieces like parsing config/creds, setting up connections and providing test primatives  
